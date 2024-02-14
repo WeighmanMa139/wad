@@ -1,0 +1,100 @@
+.grid-container {
+
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw;
+    gap: 20px;
+
+    margin: auto
+}
+
+.im1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+    
+  
+    }
+    
+    .im2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 16;
+        grid-row-end: 18; 
+        
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    }
+    
+    .im3 {
+        grid-column-start: 5;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 3; 
+        
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    
+    }
+    
+    .im4 {
+        grid-column-start: ;
+        grid-column-end: ;
+        grid-row-start: ;
+        grid-row-end: ;  
+    
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    }
+    
+    .im5 {
+        grid-column-start: ;
+        grid-column-end: ;
+        grid-row-start: ;
+        grid-row-end: ;   
+    
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    }
+    
+    .im6 {
+        grid-column-start: ;
+        grid-column-end: ;
+        grid-row-start: ;
+        grid-row-end: ;
+    
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    }
+
+    .im7 {
+        grid-column-start: ;
+        grid-column-end: ;
+        grid-row-start: ;
+        grid-row-end: ;   
+    
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    }
+    
+    .im8 {
+        grid-column-start: ;
+        grid-column-end: ;
+        grid-row-start: ;
+        grid-row-end: ;
+    
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    }
