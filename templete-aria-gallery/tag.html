@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+ :root {
+    font-size: 20px;
+ }
+
+ .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas: 
+    "im1 im2 im3 im3"
+    "im1 im4 im5 im6"
+    "im7 im8 im5 im6";
+
+    gap: 0.5rem;
+    margin: 0 auto;
+ }
+    .im1 {
+        grid-area: im1;
+    }
+
+    .im2 {
+        grid-area: im2;
+    }
+ 
+    .im3 {
+        grid-area: im3;
+    }
+
+    .im4 {
+        grid-area: im4;
+    }
+ 
+    .im5 {
+        grid-area: im5;
+    }
+
+    .im6 {
+        grid-area: im6;
+    }
+ 
+    .im7 {
+        grid-area: im7;
+    }
+
+    .im8 {
+        grid-area: im8;
+    }
+
+@media (width < 768px){
+.gallery{
+    grid-template-areas: 
+        "im1"
+        "im2" 
+        "im3"
+        "im4"
+        "im5"
+        "im6" 
+        "im7"
+        "im8";
+
+ }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="gallery"> 
+    <img src="backpacker.jpg" alt="" class="im1">
+    <img src="big2.jpg" alt="" class="im2">
+    <img src="horizontal2.jpg" alt="" class="im3">
+    <img src="big3.jpg" alt="" class="im4">
+
+    <img src="climbing-team.jpg" alt="" class="im5">
+    <img src="infinity-trail.jpg" alt="" class="im6">
+    <img src="horizontal3.jpg" alt="" class="im7">
+    <img src="big1.jpg" alt="" class="im8">
+
+</div>
+
+
+
+    
+</body>
+</html>
