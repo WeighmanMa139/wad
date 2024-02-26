@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+:root {
+    font-size: 20px;
+ }
+
+ .background-collor {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "im1 content"
+    ;
+
+    gap: 0.5rem;
+    margin: 0 auto;
+ }
+    .im1 {
+       
+        max-height: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .content {
+        grid-area: im2;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="background-collor">
+
+    <div class="im1"><img src="cat1.png" alt=""></div>
+
+    <div class="content"></div>
+
+
+    </div>
+    
+</body>
+</html>
