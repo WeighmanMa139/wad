@@ -1,0 +1,15 @@
+/*Max Weighman*/
+/*12 May 2024*/
+/*js template*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 600px;
+    margin: 25px auto;
+    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
