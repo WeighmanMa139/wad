@@ -29,7 +29,7 @@ const msg =(
     ${numOne} * ${numTwo} = ${sum3}
     ${numOne} / ${numTwo} = ${sum4}
 
-    `
+`
 );
 
 console.log(msg)
