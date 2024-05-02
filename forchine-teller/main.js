@@ -6,7 +6,8 @@
 function enterName(){
     const size = prompt(`Please enter your first name: (Example: Bob)`)
 
-    const
+    const contrys =["USA", "United Kingdom", "Germany", "Russia", "Austrailia" ]
+
+    const jobs =["Cheaf", "Teacher", "Doctor", "Enginer", "Scholor"]
 }
 
-// input
